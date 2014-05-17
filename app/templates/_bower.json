@@ -1,0 +1,23 @@
+{
+    "name": "<%= mongooseName %>",
+    "version": "0.0.0",
+    "description": "<%= description %>",
+    "keywords": {
+        "mongoose",
+        "mongoose-plugin",
+        "<%= mongooseName %>",
+        "<%= slugname %>"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "mongoose": "latest"
+    },
+    "license": "MIT",
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
